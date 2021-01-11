@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos/sesion.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/usuario.js"></script>
+<title>Document</title>
+</head>
+<body>
+  <main>
+      <div class="container">
+       <nav class="menu_nav">
+           <img class="logo_pagina" src="img/logomaster.png" alt="">
+           <ul class="menu_link">
+               <li><a href="index.html">INICIO</a></li>
+               <li><a href="acerca.html">ACERCA DE</a></li>
+               <li><a href="sesion.html">INICIAR SESIÓN</a></li>
+           </ul>
+           
+       </nav>
+       <hr>
+   </div>
+   <div class="container_inicio">
+       <img class="avatar" src="img/logomaster.png" alt="logo">
+       <h1>Iniciar sesión aquí</h1>
+       <form onsubmit="return iniciar();">
+           <label for="username">Username <input type="text" id="usuario" placeholder="Ingrese su usuario"> </label>
+           <label for="password">Password <input type="password" id="clave" placeholder="Ingrese su contraseña"> </label>
+           <input type="submit"  value="Log in" onclick="iniciar();">
+           <a href="registro.html"> ¿No tienes una cuenta? </a> <br>
+           <a href="sesion_admin.html"> Inicia como administrador </a>
+           
+       </form>
+   </div>
+   
+   
+   <footer class="footer4">
+           <h4 class="titulo_footer4">AGUA Y GAS JR</h4>
+           <p>Design by <span>Rubén Santos y Jonathan Gonzalez</span></p>
+           <p class="copy">copyright &copy;2021 pedidos agua y gas</p>  
+    </footer>
+      
+  </main>
+   
+
+    
+</body>
+</html>

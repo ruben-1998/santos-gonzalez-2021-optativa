@@ -1,0 +1,17 @@
+.activar:active{
+    background: red;
+    
+}
+.acerca {
+    font-family: cursive;
+    margin: 40px auto;
+    
+}
+.acerca p{
+    font-family: cursive;
+    margin: 20px auto;
+}
+.acerca h2{
+    text-align: center;
+    font-size: 34px;
+}

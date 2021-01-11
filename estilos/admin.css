@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: none;
+}
+
+.container_panel{
+    flex: 1;
+    margin: auto;
+    padding: 14px ;
+}
+.titulo_panel{
+    font-family: georgia,times, sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    font-weight: 700;
+    text-align: center;
+}
+.tabla th{
+    font-family: cursive;
+    padding: 15px ;
+    background: steelblue;
+}
+.tabla td{
+    font-family: arial;
+    padding: 12px;
+    background: orange;
+    
+}
+input[name="confirmado"]{
+   padding: 8px;
+    font-family: arial,times,sans-serif;
+    background: steelblue;
+    font-weight: 700;
+    color: white;
+}
+input[name="anulado"]{
+   padding: 8px;
+    font-family: arial,times,sans-serif;
+    background: yellow;
+    font-weight: 700;
+    
+}
+input[name="rechazado"]{
+   padding: 8px;
+    font-family: arial,times,sans-serif;
+    background: red;
+    font-weight: 700;
+    color: white;
+}
+
+@media(max-width: 982px){
+    .tabla{
+        width: 300px;
+        
+    }
+    
+    
+}
+@media(max-width: 684px){
+    .container_panel{
+        
+    }
+    
+    .titulo_panel{
+        font-size: 15px;
+    }
+    .tabla th{
+    font-family: cursive;
+    padding: 3px ;
+    background: steelblue;
+    font-size: 12px;
+}
+.tabla td{
+    font-size: 12px;
+    padding: 3px;  
+    
+}
+    input[name="confirmado"]{
+   padding: 2px;
+    font-family: arial,times,sans-serif;
+    background: steelblue;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+}
+input[name="anulado"]{
+   padding: 2px;
+    font-family: arial,times,sans-serif;
+    background: yellow;
+    font-weight: 700;
+    font-size: 12px;
+}
+input[name="rechazado"]{
+   padding: 2px;
+    font-size: 12px;
+    font-family: arial,times,sans-serif;
+    background: red;
+    font-weight: 700;
+    color: white;
+}
+    
+}
+@media(max-width: 409px){
+    .titulo_panel{
+        font-size: 10px;
+    }
+    .tabla th{
+    font-family: cursive;
+    padding: 1px ;
+    background: steelblue;
+    font-size: 7.5px;
+}
+.tabla td{
+    font-size: 7.5px;
+    padding: 1px;  
+    
+}
+    input[name="confirmado"]{
+   padding: 0.5px;
+    font-family: arial,times,sans-serif;
+    background: steelblue;
+    font-weight: 700;
+    color: white;
+    font-size: 9px;
+}
+input[name="anulado"]{
+   padding: 0.5px;
+    font-family: arial,times,sans-serif;
+    background: yellow;
+    font-weight: 700;
+    font-size: 9px;
+}
+input[name="rechazado"]{
+   padding: 0.5px;
+    font-size: 9px;
+    font-family: arial,times,sans-serif;
+    background: red;
+    font-weight: 700;
+    color: white;
+}
+    
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/fondo_sesion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h1, input{
+   font-family: sans-serif;
+}
+.titulo_footer4{
+    text-align: center;
+    font-family: georgia, times;
+}
+.footer4{
+        /*position: absolute;
+        bottom: 0;
+        width: 100%;*/
+
+}
+
+.container_inicio{
+    width: 320px;
+    height: 420px;
+    background: steelblue;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+.container_inicio .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+
+.container_inicio label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.container_inicio h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.container_inicio input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container_inicio input[type="text"], .container_inicio input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.container_inicio input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 40px;
+    
+    
+}
+.container_inicio a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.container_inicio a:hover{
+    color: orange;
+ }
+.footer4{
+    background: steelblue;
+    line-height: 28px;
+    
+}

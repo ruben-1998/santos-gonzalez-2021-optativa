@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos/sesion.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/admin.css">
+    <link rel="stylesheet" href="estilos/registro.css">
+    <link rel="stylesheet" href="estilos/usuario.css">
+<title>Document</title>
+</head>
+<body>
+  <main>
+      <div class="container">
+       <nav class="menu_nav">
+           <img class="logo_pagina" src="img/logomaster.png" alt="">
+           <ul class="menu_link">
+               <li><a href="index.html">INICIO</a></li>
+               <li><a href="acerca.html">ACERCA DE</a></li>
+               <li><a href="sesion.html">INICIAR SESIÓN</a></li>
+           </ul>
+           
+       </nav>
+   </div>
+   <div class="container_usuario">
+       
+       <form class="formulario">
+    
+    <h1>Registra tu pedido</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="Nombre Completo" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="email" placeholder="Correo Electronico" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <!-- <input type="text" placeholder="Dirección" required -->
+         <select class="seleccion" name="producto" id="">
+             <option value="1">Gas</option>
+             <option value="2">Agua</option>
+         </select>
+        <input type="number" min="0" value="0">
+             
+         </div>
+         <input type="submit" value="Registrar Pedido" class="button">
+     </div>
+    </form>
+       
+       
+   </div>
+   
+   
+   <footer class="footer4">
+           <h4 class="titulo_footer4">AGUA Y GAS JR</h4>
+           <p>Design by <span>Rubén Santos y Jonathan Gonzalez</span></p>
+           <p class="copy">copyright &copy;2021 pedidos agua y gas</p>  
+    </footer>
+      
+  </main>
+   
+
+    
+</body>
+</html>
